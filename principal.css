@@ -402,6 +402,16 @@ footer img {
     margin-bottom: 50px;
 }
 
+.associadosbutton1 {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 28%;
+    border: none;
+    background-color: #6a52b6;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
 
 .squareprincipal img {
     height: 300px;
