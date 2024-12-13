@@ -308,10 +308,10 @@ body {
     display: inline-block;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-color: transparent;
-    background: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.397)), url("bolo.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.397)), url("projetosocial.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -405,24 +405,28 @@ h4 {
 
 
 /* ------------------------------------------footer Entony----------------------------------------*/
-#contatos {
-
+#contatos .imgs {
     background-color: #6a52b6;
     display: flex;
     justify-content: right;
+    width: 50%;
 }
 
-.AjusteLogo {
-    margin-left: 4em;
-    height: 140px;
+#contatos{
     display: flex;
 }
 
-.imgs {
-
-    align-items: center;
-    display: flex;
+.AjusteLogo{
+   width: 50%;
+   height: 100%;
+   
 }
+.AjusteLogo img{
+    height: 100px;
+}
+
+
+
 
 i {
     color: white;
@@ -456,13 +460,17 @@ figcaption {
 /* footer */
 
 /* __________________________DarkMode________________________________________ */
-.dark-mode {
+
+
+
+.dark-mode  {
+    background-color: black;
+    color: #00ffd5;
+}
+.dark-mode * {
     transition: ease-in-out 0.9s;
-    background-color: #000000;
 
 }
-
-.dark-mode * {}
 
 .dark-mode button {
     background-color: #1eddb7;
@@ -574,6 +582,12 @@ figcaption {
     color: #1eddb7;
 }
 
+.dark-mode footer i{
+    border: #c80606 solid 1px;
+    background-color: #00ffd5;
+}
+
+
 /* ___________________________Responsividade_______________________________ */
 
 @media (max-width: 768px) {
@@ -582,6 +596,7 @@ figcaption {
     }
 
     header {
+        /* display: none; */
         width: 110%;
         position: fixed;
         margin-left: -10px;
@@ -651,6 +666,10 @@ figcaption {
         width: 100%;
     }
 
+    .texto{
+        margin-bottom: 0px;
+    }
+    
     .texto2 {
         height: 100%;
         width: 100%;
@@ -746,14 +765,14 @@ figcaption {
     }
 
     .imgs {
-        margin-left: -55%;
+        margin-left: -10%;
         display: flex;
     }
 
 
     footer {
         height: 100%;
-        width: 0%;
+        width: 100%;
         flex-direction: column;
     }
 
@@ -761,6 +780,10 @@ figcaption {
         width: 150%;
     }
 
+    .info{
+        border: #000000 solid 3px;
+    }
+    
     .AjusteLogo{
         margin: 0%;
     }
@@ -770,6 +793,6 @@ figcaption {
     }
 
     .imgs{
-        display: inline-block;
+        display:flex;
     }
 }
