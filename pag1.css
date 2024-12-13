@@ -648,6 +648,7 @@
         }
 
         .texto h2 {
+           margin-top: 50%;
             font-size: 30px;
         }
 
@@ -656,14 +657,14 @@
         }
 
         .imagem {
+           margin-top: -10%;
             height: 100vh;
         }
 
         .imagem img {
             margin-top: 0%;
-            height: 40vh;
+            height: 35vh;
             width: 600px;
-            /* padding: 20px; */
         }
 
         .contatos {
@@ -684,15 +685,7 @@
             display: flex;
             flex-direction: column;
             height: 150vh;
-            /* gap: 10vh; */
         }
-
-
-        /* #feedback h2 {
-                display: flex;
-                justify-content: center;
-                font-size: 1.7rem;
-            } */
 
         #feedback p {
             display: flex;
