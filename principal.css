@@ -636,13 +636,13 @@ form input:placeholder {
 
 
 
-    button {
+    input {
         width: 100%;
     }
 
 
     header {
-        width: 100%;
+        width: 100vw;
     }
 
     header img {
