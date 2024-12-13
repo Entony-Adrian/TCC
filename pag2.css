@@ -409,7 +409,6 @@ h4 {
     background-color: #6a52b6;
     display: flex;
     justify-content: right;
-    width: 50%;
 }
 
 #contatos{
@@ -521,6 +520,18 @@ figcaption {
 .dark-mode #contatos {
     background-color: #000000;
 
+}
+
+.dark-mode .Info{
+    background-color: #000000;
+}
+
+.dark-mode footer{
+    background-color: #000000;
+}
+
+.dark-mode .imgs{
+    background-color: black;
 }
 
 .dark-mode .container {
