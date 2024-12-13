@@ -582,7 +582,6 @@ figcaption {
     }
 
     header {
-        /* display: none; */
         width: 110%;
         position: fixed;
         margin-left: -10px;
@@ -618,7 +617,7 @@ figcaption {
     }
 
     .texto {
-        height: 60vh;
+        height: 100vh;
         width: 100%;
     }
 
@@ -635,8 +634,8 @@ figcaption {
     }
 
     .imagem img {
-        margin-top: 0%;
-        height: 40vh;
+        margin-top: -50%;
+        height: 35vh;
         width: 100%;
     }
 
