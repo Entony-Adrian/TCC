@@ -844,7 +844,6 @@ figcaption {
 
     .empresacaixa {
         flex-direction: column;
-        /* margin-top: 40%; */
     }
 
     #feedback {
@@ -871,7 +870,6 @@ figcaption {
         margin-top: 30vh;
         height: 20%;
         width: 100vw;
-        /* z-index: 1; */
     }
 
     #feedback .bula2 {
@@ -903,19 +901,17 @@ figcaption {
     }
 }
 
+.AjusteLogo{
+        margin: 0%;
+    }
 
+    .AjusteLogo img{
+        height: 100px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
+    .imgs{
+        display: inline-block;
+    }
 
 /* @media(max-width: 768px) {
     .bloco {
