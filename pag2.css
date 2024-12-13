@@ -760,4 +760,16 @@ figcaption {
     footer figcaption {
         width: 150%;
     }
+
+    .AjusteLogo{
+        margin: 0%;
+    }
+
+    .AjusteLogo img{
+        height: 100px;
+    }
+
+    .imgs{
+        display: inline-block;
+    }
 }
