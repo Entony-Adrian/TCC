@@ -733,6 +733,18 @@
             width: 100%;
         }
 
+       .AjusteLogo{
+        margin: 0%;
+    }
+
+    .AjusteLogo img{
+        height: 100px;
+    }
+
+    .imgs{
+        display: inline-block;
+    }
+
 
 
 
