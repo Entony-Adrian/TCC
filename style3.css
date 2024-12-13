@@ -376,8 +376,8 @@ h4 {
 
 /* ------------------------------------------footer Entony----------------------------------------*/
 #contatos {
-    /* background-color: #6a52b6; */
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
