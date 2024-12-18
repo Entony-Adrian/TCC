@@ -557,6 +557,13 @@ form input:placeholder {
     color: #a57d18;
 }
 
+button{
+    background-color:f4e3a2;
+    border-radius: 30px;
+    padding: 10px;
+    color: ffffff;
+}
+
 
 /* footer */
 
@@ -633,6 +640,11 @@ form input:placeholder {
 
 .dark-mode label {
     color: #00ffd5;
+}
+
+.dark-mode button{
+    background-color: black;
+    color: #1eddb7;
 }
 
 .dark-mode header {
